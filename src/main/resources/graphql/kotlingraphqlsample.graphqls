@@ -1,0 +1,8 @@
+type Query {
+    image(id: ID) : Image
+}
+
+type Image {
+    id: ID!
+    url: String!
+}
